@@ -2,7 +2,7 @@
 session_start();
 
 if($_POST["islem"] == "sifirla"){
-	session_destroy();
+	unset($_SESSION["cevaplar"]);
 }else{
 	$_SESSION["cevaplar"] = $_POST["cevaplar"];
 }

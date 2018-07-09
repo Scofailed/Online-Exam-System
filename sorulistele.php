@@ -14,6 +14,8 @@ require_once 'baglan.php';
 
 </style>
 	<title></title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<meta charset="UTF-8">
   <meta name="description" content="arama motorundan çıkan alt bilgi">
   <meta name="keywords" content="HTML,CSS,XML,JavaScript">
@@ -27,11 +29,11 @@ require_once 'baglan.php';
 <h2>Listeleme İşlemleri</h2>
 
 	<p>Listelemek istediğiniz dersi seçiniz</p>
-	<input type="button" value="Türkçe" onclick="window.location.href='turkcelistele.php'">
-	<input type="button" value="Matematik" onclick="window.location.href='matematiklistele.php'">
-	<input type="button" value="Sosyal" onclick="window.location.href='sosyallistele.php'">
-	<input type="button" value="Fen" onclick="window.location.href='fenlistele.php'">
-	<a href="adminpaneli.php"><input class="adminpaneli" type="button" name="button2" id="button2" value="Admin Paneli" /></a>
+	<input class="btn btn-primary" type="button" value="Türkçe" onclick="window.location.href='turkcelistele.php'">
+	<input class="btn btn-primary" type="button" value="Matematik" onclick="window.location.href='matematiklistele.php'">
+	<input class="btn btn-primary" type="button" value="Sosyal" onclick="window.location.href='sosyallistele.php'">
+	<input class="btn btn-primary" type="button" value="Fen" onclick="window.location.href='fenlistele.php'">
+	<a href="adminpaneli.php"><input class="adminpaneli btn btn-primary" type="button" name="button2" id="button2" value="Admin Paneli" /></a>
 	
 </form>
 
@@ -52,6 +54,7 @@ require_once 'baglan.php';
 	</tr>
 
 </table>
-
+<script src="assets/js/jquery.min.js" type="text/javascript" charset="utf-8" async defer></script>
+    <script src="assets/js/bootstrap.min.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html> 
